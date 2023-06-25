@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\.0aa92e41166d9b10e0885ee9a277666a9f4c1637-audit.json",
+    "files": [
+        {
+            "date": 1687463068908,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-23-01-success.log",
+            "hash": "f702801c99778aadd345e587a899173a9ae4bc3650019b44a46ccee0908882f8"
+        },
+        {
+            "date": 1687464196783,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-23-02-success.log",
+            "hash": "e33932bd4c1d01a89f842064a9e943f03c3109bdf4d73a7102b48aa6291fac2f"
+        },
+        {
+            "date": 1687623984248,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-24-22-success.log",
+            "hash": "887f9a19af9926721bc7c2e31f792fce208b10651d31cae2e1a3ddef43f162a7"
+        },
+        {
+            "date": 1687626029007,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-24-23-success.log",
+            "hash": "7518eea699d2158027218eaca4f2df70faf33301f0cc6523188d8c2f3d6bca8d"
+        },
+        {
+            "date": 1687688577177,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-25-16-success.log",
+            "hash": "a729843cd73e13ab5649b53c3da47f63d292a401a099c5c5a30b5334fd7c0024"
+        },
+        {
+            "date": 1687690806420,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-25-17-success.log",
+            "hash": "6aab7c506bf275071d94d245da054d4b75b6916f43e0121f8537a4516ba6de86"
+        },
+        {
+            "date": 1687714312920,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-25-23-success.log",
+            "hash": "28c90e7a598d3fe36f23a95e356d35dd24eae8565397fb84fd3d0914097787c6"
+        },
+        {
+            "date": 1687717917971,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\successes\\phu-2023-06-26-00-success.log",
+            "hash": "714e02c6811ef177faae033b6db4720641b388bd635d27a24b260233b812106a"
+        }
+    ],
+    "hashType": "sha256"
+}
