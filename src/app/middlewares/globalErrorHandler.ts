@@ -1,12 +1,61 @@
-import { NextFunction, Request, Response } from 'express'
+/* eslint-disable no-console */
+/* eslint-disable no-unused-expressions */
+import { ErrorRequestHandler } from 'express';
+import { IGenericErrorMessage } from '../../interfaces/error';
+import { handleValidationError } from '../../error/handleValidationError';
+import config from '../../config';
+import ApiError from '../../error/ApiError';
+import { errorlogger } from '../../shared/logger';
+import { ZodError } from 'zod';
+import handleZodError from '../../error/handleZodError';
 
-const globalErrorHandler = (
-  err,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
-  next()
-}
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  let statusCode = 500;
+  let message = 'something went wrong';
+  let errorMessages: IGenericErrorMessage[] = [];
 
-export default globalErrorHandler
+  config.env === 'development'
+    ? console.log(`globalErrorHandler `, error)
+    : errorlogger.error(error);
+  if (error?.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  } else if (error instanceof ZodError) {
+    const simplifiedError = handleZodError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
+  } else if (error instanceof ApiError) {
+    message = error?.message;
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: error?.message,
+          },
+        ]
+      : [];
+  } else if (error instanceof Error) {
+    message = error?.message;
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: error?.message,
+          },
+        ]
+      : [];
+  }
+
+  res.status(statusCode).json({
+    success: false,
+    message,
+    errorMessages,
+    stack: config.env !== 'production' ? error?.stack : undefined,
+  });
+  next();
+};
+
+export default globalErrorHandler;

@@ -6,34 +6,39 @@
     "auditLog": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\.5bfcdb32ffcdba77234e12128eef8d5cc111d530-audit.json",
     "files": [
         {
-            "date": 1687624711924,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-24-22-error.log",
-            "hash": "3d4d11048467381672d6fdb57e6a352139f374860dd03f46b8945acbe6649244"
+            "date": 1688120024982,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-30-16-error.log",
+            "hash": "34ff78a48f541136ab83f17ddd6297a2ffe3edc298d832f137946820e2803432"
         },
         {
-            "date": 1687626029001,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-24-23-error.log",
-            "hash": "7104b14ad936528b8b3de36b0f7f90359feab7dcaf878cc177eb2efaa8ba2661"
+            "date": 1688122832923,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-30-17-error.log",
+            "hash": "7148abfb1ab393be64bf513f6658c1e7e62faae87a4771b733ea3c559c03ea65"
         },
         {
-            "date": 1687688577165,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-25-16-error.log",
-            "hash": "2f527eea4413028ee74179d6c6c3a4d5629289358cf2a36da8a6a0bfe5e1ebe8"
+            "date": 1688322015558,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-07-03-00-error.log",
+            "hash": "7d16abcd8ed46663e39c87b34f94d3eec4f823acd5aad3f97ca4c5fcc22a6804"
         },
         {
-            "date": 1687690806415,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-25-17-error.log",
-            "hash": "55c66f7a14143e6a4324a8ee3ce75df39724354df433921b1c3d73a90a3a1ec2"
+            "date": 1688355371339,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-07-03-09-error.log",
+            "hash": "909c099d2cc6079c3dbb35668a84fa0ef16077b917c7a55a0de680fac076d9bb"
         },
         {
-            "date": 1687714312899,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-25-23-error.log",
-            "hash": "14c35dd0e41cbab996384e803bb883e28145d8eecc56f983d0663816363f68b7"
+            "date": 1688356865666,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-07-03-10-error.log",
+            "hash": "8eefb175ad9f9babcb49b266593bbe5bd1a435fb32e297d3bdff1d89c5a4d620"
         },
         {
-            "date": 1687717917948,
-            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-06-26-00-error.log",
-            "hash": "dcb1250a7e6ee38bfc448d5313022757f4ea7d3378acfc354398b145dd4210d1"
+            "date": 1689324462206,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-07-14-14-error.log",
+            "hash": "f4e4eee8bf89e3be318c151f8619603c9bb3c11d8796b4ddd51f99fd6b5e304b"
+        },
+        {
+            "date": 1689325200841,
+            "name": "C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\logs\\winston\\errors\\phu-2023-07-14-15-error.log",
+            "hash": "69b20fcdd98fffacea0a5405f0d3cde49a1c85082fc12dc45d82d2b92182df85"
         }
     ],
     "hashType": "sha256"

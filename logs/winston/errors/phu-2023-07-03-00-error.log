@@ -1,0 +1,82 @@
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-07-02T18:20:19.693Z'
+}
+{
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-07-02T18:20:58.034Z'
+}
+{
+  errors: {
+    role: ValidatorError: Path `role` is required.
+        at validate (C:\Users\motia\Desktop\lvel2\university-management-system-backend\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\motia\Desktop\lvel2\university-management-system-backend\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\Users\motia\Desktop\lvel2\university-management-system-backend\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `role` is required.',
+        type: 'required',
+        path: 'role',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'role',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-07-02T18:21:06.517Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-07-02T18:21:24.843Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'role' ],
+      message: 'role is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-07-02T18:25:02.930Z'
+}

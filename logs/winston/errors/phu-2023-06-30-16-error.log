@@ -1,0 +1,40 @@
+{
+  level: 'error',
+  message: 'error incoming server is not defined',
+  stack: 'ReferenceError: server is not defined\n' +
+    '    at bootstrap (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\src\\server.ts:9:10)\n' +
+    '    at Object.<anonymous> (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\src\\server.ts:17:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1275:14)\n' +
+    '    at Module._compile (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:69:33)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1133:32)',
+  label: 'error',
+  timestamp: '2023-06-30T10:45:56.894Z'
+}
+{
+  level: 'error',
+  message: 'error incoming server is not defined',
+  stack: 'ReferenceError: server is not defined\n' +
+    '    at bootstrap (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\src\\server.ts:11:11)\n' +
+    '    at Object.<anonymous> (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\src\\server.ts:27:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1275:14)\n' +
+    '    at Module._compile (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:69:33)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\motia\\AppData\\Local\\Temp\\ts-node-dev-hook-20006970806815505.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\motia\\Desktop\\lvel2\\university-management-system-backend\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1133:32)',
+  label: 'error',
+  timestamp: '2023-06-30T10:51:45.119Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'error',
+  timestamp: '2023-06-30T10:58:49.325Z'
+}
